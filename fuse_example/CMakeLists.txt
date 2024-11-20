@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(fuse_example)
+INCLUDE_DIRECTORIES(/home/ubuntu/miniconda3/envs/cached_container/include/fuse3)
+LINK_DIRECTORIES(/home/ubuntu/miniconda3/envs/cached_container/lib/)
+add_executable(fuse_example fuse_example.c)
+target_link_libraries(fuse_example fuse3)

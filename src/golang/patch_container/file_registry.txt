@@ -1,0 +1,2 @@
+/f1.txt,S_IFREG
+/f2.txt,S_IFREG
